@@ -32,4 +32,4 @@ sudo nano /etc/fstab
 /mnt/usb/video   /home/pp/videoplayer/videos   none   bind   0   0
 
 
-sudo umount /media/
+sudo umount /home/pp/videoplayer/videos
