@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-panel {
+    background-color: #f0f0f0;
+  }
+  
+  #videoList {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #027ed1;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #022b46;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 800px;
+  }
+  
