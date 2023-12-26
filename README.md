@@ -9,3 +9,10 @@ This will run in port 3001
 
 ```
 http://localhost:3001
+
+Host in Raspberry Pi as Server
+
+```
+pgrep -f "node server/server.js"
+kill -9 <PID>
+node server/server.js > /dev/null 2>&1 &
